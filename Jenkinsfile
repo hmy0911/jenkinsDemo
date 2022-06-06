@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                build 'gitDemo'
+                echo "20220607"
             }
         }
         stage('Deploy') {
